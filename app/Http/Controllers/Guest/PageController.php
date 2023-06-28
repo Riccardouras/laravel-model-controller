@@ -12,7 +12,7 @@ class PageController extends Controller
     {   
         $link = config('Models.movies');
         $movies = Movie::all();
-        return view(compact( $movies, $link));
+        return view('movies' , compact('movies'));
     }
 }
 
