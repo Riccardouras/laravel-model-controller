@@ -13,7 +13,10 @@
         @include('partials.header')
     </header>
     <main class="container">
-        @yield('content')
+        <section class="row">
+            @yield('content')
+        </section>
+        
     </main>
 
     <!-- Assets JS/CSS -->

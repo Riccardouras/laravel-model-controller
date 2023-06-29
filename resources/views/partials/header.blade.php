@@ -1,2 +1,2 @@
-<h1 class="mb-3">Movie list:</h1>
+<h1 class="mb-3 text-center">Movie list:</h1>
 
