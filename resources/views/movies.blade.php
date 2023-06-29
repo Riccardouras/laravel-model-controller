@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 @foreach ($movies as $movie)
-    <div style="max-width: 500px" class="card">
+    <div class="card mb-3">
         <h3>Titolo: {{ $movie->title }}</h3>
         <img style="width: 200px" src="{{$movie->img}}" alt="{{$movie->title}} ">
         <p>Descrizione: {{ $movie->description }}</p>
@@ -11,3 +11,4 @@
         <p>voto: {{$movie->vote}}</p>
     </div>
 @endforeach
+@endsection
